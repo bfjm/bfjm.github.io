@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, focused in Python and Django.
+经常熬夜的人  
 
-email: agus[at]python.web.id
+email:
+-  
+charming.zhong@foxmail.com
