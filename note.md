@@ -25,5 +25,5 @@ python -m pip  install --upgrade pip
 3. static_cast强制转换 double temp;static_cast<int>temp;    
 内联函数inline,简单调用  
 
-<li>{{ site.date }}</li>
+
 <li>{{ site.time }}</li>
