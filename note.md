@@ -25,5 +25,9 @@ python -m pip  install --upgrade pip
 3. static_cast强制转换 double temp;static_cast<int>temp;    
 内联函数inline,简单调用  
 
+4. torch.nn 只支持小批量(mini-batches), 不支持一次输入一个样本, 即一次必须是一个 batch.  
+例如, nn.Conv2d 的输入必须是 4 维的, 形如 nSamples x nChannels x Height x Width.  
+如果你只想输入一个样本, 需要使用 input.unsqueeze(0) 将 batch_size 设置为 1.  
 
-<li>{{ site.time }}</li>
+<li>{{ site.time }}</li> 
+[test](www.github.com)
