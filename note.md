@@ -29,5 +29,8 @@ python -m pip  install --upgrade pip
 例如, nn.Conv2d 的输入必须是 4 维的, 形如 nSamples x nChannels x Height x Width.  
 如果你只想输入一个样本, 需要使用 input.unsqueeze(0) 将 batch_size 设置为 1.  
 
+sudo ln -s /文件path/ /usr/bin/文件
+
+
 <li>{{ site.time }}</li> 
-[test](www.github.com)
+[test](http://www.github.com)
