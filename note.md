@@ -54,7 +54,7 @@ y:标准答案
 2. 在逻辑回归中，最常用的是代价函数是交叉熵(Cross Entropy)，交叉熵是一个常见的代价函数，在神经网络中也会用到。  
 ```  
 
-```python
+```
 # 带正则化的代价函数
 import numpy as np
 def costReg(theta, X, y, learningRate):
